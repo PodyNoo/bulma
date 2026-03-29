@@ -8484,1148 +8484,3422 @@ label.bulma-panel-block:hover {
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-narrow {
   flex: none;
-  width: unset;
+  flex-basis: auto;
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-full {
   flex: none;
-  width: 100%;
+  flex-basis: calc(100% * 1 / 1);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-three-quarters {
   flex: none;
-  width: 75%;
+  flex-basis: calc(100% * 3 / 4);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-two-thirds {
   flex: none;
-  width: 66.6666%;
+  flex-basis: calc(100% * 2 / 3);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-half {
   flex: none;
-  width: 50%;
+  flex-basis: calc(100% * 1 / 2);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-one-third {
   flex: none;
-  width: 33.3333%;
+  flex-basis: calc(100% * 1 / 3);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-one-quarter {
   flex: none;
-  width: 25%;
+  flex-basis: calc(100% * 1 / 4);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-one-fifth {
   flex: none;
-  width: 20%;
+  flex-basis: calc(100% * 1 / 5);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-two-fifths {
   flex: none;
-  width: 40%;
+  flex-basis: calc(100% * 2 / 5);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-three-fifths {
   flex: none;
-  width: 60%;
+  flex-basis: calc(100% * 3 / 5);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-four-fifths {
   flex: none;
-  width: 80%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-three-quarters {
-  margin-inline-start: 75%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-two-thirds {
-  margin-inline-start: 66.6666%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-half {
-  margin-inline-start: 50%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-one-third {
-  margin-inline-start: 0.3333%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-one-quarter {
-  margin-inline-start: 25%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-one-fifth {
-  margin-inline-start: 20%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-two-fifths {
-  margin-inline-start: 40%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-three-fifths {
-  margin-inline-start: 60%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-four-fifths {
-  margin-inline-start: 80%;
+  flex-basis: calc(100% * 4 / 5);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-0 {
   flex: none;
-  width: 0%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-0 {
-  margin-inline-start: 0%;
+  flex-basis: calc(100% * 0 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-1 {
   flex: none;
-  width: 8.3333333333%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-1 {
-  margin-inline-start: 8.3333333333%;
+  flex-basis: calc(100% * 1 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-2 {
   flex: none;
-  width: 16.6666666667%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-2 {
-  margin-inline-start: 16.6666666667%;
+  flex-basis: calc(100% * 2 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-3 {
   flex: none;
-  width: 25%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-3 {
-  margin-inline-start: 25%;
+  flex-basis: calc(100% * 3 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-4 {
   flex: none;
-  width: 33.3333333333%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-4 {
-  margin-inline-start: 33.3333333333%;
+  flex-basis: calc(100% * 4 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-5 {
   flex: none;
-  width: 41.6666666667%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-5 {
-  margin-inline-start: 41.6666666667%;
+  flex-basis: calc(100% * 5 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-6 {
   flex: none;
-  width: 50%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-6 {
-  margin-inline-start: 50%;
+  flex-basis: calc(100% * 6 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-7 {
   flex: none;
-  width: 58.3333333333%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-7 {
-  margin-inline-start: 58.3333333333%;
+  flex-basis: calc(100% * 7 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-8 {
   flex: none;
-  width: 66.6666666667%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-8 {
-  margin-inline-start: 66.6666666667%;
+  flex-basis: calc(100% * 8 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-9 {
   flex: none;
-  width: 75%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-9 {
-  margin-inline-start: 75%;
+  flex-basis: calc(100% * 9 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-10 {
   flex: none;
-  width: 83.3333333333%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-10 {
-  margin-inline-start: 83.3333333333%;
+  flex-basis: calc(100% * 10 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-11 {
   flex: none;
-  width: 91.6666666667%;
-}
-.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-11 {
-  margin-inline-start: 91.6666666667%;
+  flex-basis: calc(100% * 11 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-12 {
   flex: none;
-  width: 100%;
+  flex-basis: calc(100% * 12 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-three-quarters {
+  margin-inline-start: calc(100% * 3 / 4);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-two-thirds {
+  margin-inline-start: calc(100% * 2 / 3);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-half {
+  margin-inline-start: calc(100% * 1 / 2);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-one-third {
+  margin-inline-start: calc(100% * 1 / 3);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-one-quarter {
+  margin-inline-start: calc(100% * 1 / 4);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-one-fifth {
+  margin-inline-start: calc(100% * 1 / 5);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-two-fifths {
+  margin-inline-start: calc(100% * 2 / 5);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-three-fifths {
+  margin-inline-start: calc(100% * 3 / 5);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-four-fifths {
+  margin-inline-start: calc(100% * 4 / 5);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-0 {
+  margin-inline-start: calc(100% * 0 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-1 {
+  margin-inline-start: calc(100% * 1 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-2 {
+  margin-inline-start: calc(100% * 2 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-3 {
+  margin-inline-start: calc(100% * 3 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-4 {
+  margin-inline-start: calc(100% * 4 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-5 {
+  margin-inline-start: calc(100% * 5 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-6 {
+  margin-inline-start: calc(100% * 6 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-7 {
+  margin-inline-start: calc(100% * 7 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-8 {
+  margin-inline-start: calc(100% * 8 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-9 {
+  margin-inline-start: calc(100% * 9 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-10 {
+  margin-inline-start: calc(100% * 10 / 12);
+}
+.bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-11 {
+  margin-inline-start: calc(100% * 11 / 12);
 }
 .bulma-columns.bulma-is-mobile > .bulma-column.bulma-is-offset-12 {
-  margin-inline-start: 100%;
+  margin-inline-start: calc(100% * 12 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 3 / 4);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 2 / 3);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 1 / 2);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 1 / 3);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 1 / 4);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 1 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 2 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 3 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 4 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 0 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 1 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 2 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 3 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 4 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 5 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 6 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 7 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 8 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 9 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 10 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 11 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12 {
+  margin-inline-start: 0;
+  margin-inline-end: calc(100% * 12 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 3 / 4);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 2 / 3);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 1 / 2);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 1 / 3);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 1 / 4);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 1 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 2 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 3 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 4 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 0 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 1 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 2 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 3 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 4 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 5 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 6 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 7 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 8 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 9 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 10 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 11 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12 {
+  margin-inline-start: 0;
+  margin-block-start: calc(100cqb * 12 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 3 / 4);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 2 / 3);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 1 / 2);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 1 / 3);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 1 / 4);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 1 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 2 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 3 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 4 / 5);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 0 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 1 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 2 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 3 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 4 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 5 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 6 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 7 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 8 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 9 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 10 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 11 / 12);
+}
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12 {
+  margin-inline-start: 0;
+  margin-block-end: calc(100cqb * 12 / 12);
 }
 @media screen and (max-width: 768px) {
   .bulma-column.bulma-is-narrow-mobile {
     flex: none;
-    width: unset;
+    flex-basis: auto;
   }
   .bulma-column.bulma-is-full-mobile {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 1 / 1);
   }
   .bulma-column.bulma-is-three-quarters-mobile {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 3 / 4);
   }
   .bulma-column.bulma-is-two-thirds-mobile {
     flex: none;
-    width: 66.6666%;
+    flex-basis: calc(100% * 2 / 3);
   }
   .bulma-column.bulma-is-half-mobile {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 1 / 2);
   }
   .bulma-column.bulma-is-one-third-mobile {
     flex: none;
-    width: 33.3333%;
+    flex-basis: calc(100% * 1 / 3);
   }
   .bulma-column.bulma-is-one-quarter-mobile {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 1 / 4);
   }
   .bulma-column.bulma-is-one-fifth-mobile {
     flex: none;
-    width: 20%;
+    flex-basis: calc(100% * 1 / 5);
   }
   .bulma-column.bulma-is-two-fifths-mobile {
     flex: none;
-    width: 40%;
+    flex-basis: calc(100% * 2 / 5);
   }
   .bulma-column.bulma-is-three-fifths-mobile {
     flex: none;
-    width: 60%;
+    flex-basis: calc(100% * 3 / 5);
   }
   .bulma-column.bulma-is-four-fifths-mobile {
     flex: none;
-    width: 80%;
-  }
-  .bulma-column.bulma-is-offset-three-quarters-mobile {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-offset-two-thirds-mobile {
-    margin-inline-start: 66.6666%;
-  }
-  .bulma-column.bulma-is-offset-half-mobile {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-offset-one-third-mobile {
-    margin-inline-start: 0.3333%;
-  }
-  .bulma-column.bulma-is-offset-one-quarter-mobile {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-offset-one-fifth-mobile {
-    margin-inline-start: 20%;
-  }
-  .bulma-column.bulma-is-offset-two-fifths-mobile {
-    margin-inline-start: 40%;
-  }
-  .bulma-column.bulma-is-offset-three-fifths-mobile {
-    margin-inline-start: 60%;
-  }
-  .bulma-column.bulma-is-offset-four-fifths-mobile {
-    margin-inline-start: 80%;
+    flex-basis: calc(100% * 4 / 5);
   }
   .bulma-column.bulma-is-0-mobile {
     flex: none;
-    width: 0%;
-  }
-  .bulma-column.bulma-is-offset-0-mobile {
-    margin-inline-start: 0%;
+    flex-basis: calc(100% * 0 / 12);
   }
   .bulma-column.bulma-is-1-mobile {
     flex: none;
-    width: 8.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-1-mobile {
-    margin-inline-start: 8.3333333333%;
+    flex-basis: calc(100% * 1 / 12);
   }
   .bulma-column.bulma-is-2-mobile {
     flex: none;
-    width: 16.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-2-mobile {
-    margin-inline-start: 16.6666666667%;
+    flex-basis: calc(100% * 2 / 12);
   }
   .bulma-column.bulma-is-3-mobile {
     flex: none;
-    width: 25%;
-  }
-  .bulma-column.bulma-is-offset-3-mobile {
-    margin-inline-start: 25%;
+    flex-basis: calc(100% * 3 / 12);
   }
   .bulma-column.bulma-is-4-mobile {
     flex: none;
-    width: 33.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-4-mobile {
-    margin-inline-start: 33.3333333333%;
+    flex-basis: calc(100% * 4 / 12);
   }
   .bulma-column.bulma-is-5-mobile {
     flex: none;
-    width: 41.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-5-mobile {
-    margin-inline-start: 41.6666666667%;
+    flex-basis: calc(100% * 5 / 12);
   }
   .bulma-column.bulma-is-6-mobile {
     flex: none;
-    width: 50%;
-  }
-  .bulma-column.bulma-is-offset-6-mobile {
-    margin-inline-start: 50%;
+    flex-basis: calc(100% * 6 / 12);
   }
   .bulma-column.bulma-is-7-mobile {
     flex: none;
-    width: 58.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-7-mobile {
-    margin-inline-start: 58.3333333333%;
+    flex-basis: calc(100% * 7 / 12);
   }
   .bulma-column.bulma-is-8-mobile {
     flex: none;
-    width: 66.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-8-mobile {
-    margin-inline-start: 66.6666666667%;
+    flex-basis: calc(100% * 8 / 12);
   }
   .bulma-column.bulma-is-9-mobile {
     flex: none;
-    width: 75%;
-  }
-  .bulma-column.bulma-is-offset-9-mobile {
-    margin-inline-start: 75%;
+    flex-basis: calc(100% * 9 / 12);
   }
   .bulma-column.bulma-is-10-mobile {
     flex: none;
-    width: 83.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-10-mobile {
-    margin-inline-start: 83.3333333333%;
+    flex-basis: calc(100% * 10 / 12);
   }
   .bulma-column.bulma-is-11-mobile {
     flex: none;
-    width: 91.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-11-mobile {
-    margin-inline-start: 91.6666666667%;
+    flex-basis: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-12-mobile {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters-mobile {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds-mobile {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half-mobile {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third-mobile {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter-mobile {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth-mobile {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths-mobile {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths-mobile {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths-mobile {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0-mobile {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1-mobile {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2-mobile {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3-mobile {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4-mobile {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5-mobile {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6-mobile {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7-mobile {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8-mobile {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9-mobile {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10-mobile {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11-mobile {
+    margin-inline-start: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-offset-12-mobile {
-    margin-inline-start: 100%;
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12-mobile {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12-mobile {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12-mobile {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
   }
 }
 @media screen and (min-width: 769px), print {
-  .bulma-column.bulma-is-narrow, .bulma-column.bulma-is-narrow-tablet {
+  .bulma-column.bulma-is-narrow {
     flex: none;
-    width: unset;
+    flex-basis: auto;
   }
-  .bulma-column.bulma-is-full, .bulma-column.bulma-is-full-tablet {
+  .bulma-column.bulma-is-full {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 1 / 1);
   }
-  .bulma-column.bulma-is-three-quarters, .bulma-column.bulma-is-three-quarters-tablet {
+  .bulma-column.bulma-is-three-quarters {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 3 / 4);
   }
-  .bulma-column.bulma-is-two-thirds, .bulma-column.bulma-is-two-thirds-tablet {
+  .bulma-column.bulma-is-two-thirds {
     flex: none;
-    width: 66.6666%;
+    flex-basis: calc(100% * 2 / 3);
   }
-  .bulma-column.bulma-is-half, .bulma-column.bulma-is-half-tablet {
+  .bulma-column.bulma-is-half {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 1 / 2);
   }
-  .bulma-column.bulma-is-one-third, .bulma-column.bulma-is-one-third-tablet {
+  .bulma-column.bulma-is-one-third {
     flex: none;
-    width: 33.3333%;
+    flex-basis: calc(100% * 1 / 3);
   }
-  .bulma-column.bulma-is-one-quarter, .bulma-column.bulma-is-one-quarter-tablet {
+  .bulma-column.bulma-is-one-quarter {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 1 / 4);
   }
-  .bulma-column.bulma-is-one-fifth, .bulma-column.bulma-is-one-fifth-tablet {
+  .bulma-column.bulma-is-one-fifth {
     flex: none;
-    width: 20%;
+    flex-basis: calc(100% * 1 / 5);
   }
-  .bulma-column.bulma-is-two-fifths, .bulma-column.bulma-is-two-fifths-tablet {
+  .bulma-column.bulma-is-two-fifths {
     flex: none;
-    width: 40%;
+    flex-basis: calc(100% * 2 / 5);
   }
-  .bulma-column.bulma-is-three-fifths, .bulma-column.bulma-is-three-fifths-tablet {
+  .bulma-column.bulma-is-three-fifths {
     flex: none;
-    width: 60%;
+    flex-basis: calc(100% * 3 / 5);
   }
-  .bulma-column.bulma-is-four-fifths, .bulma-column.bulma-is-four-fifths-tablet {
+  .bulma-column.bulma-is-four-fifths {
     flex: none;
-    width: 80%;
+    flex-basis: calc(100% * 4 / 5);
   }
-  .bulma-column.bulma-is-offset-three-quarters, .bulma-column.bulma-is-offset-three-quarters-tablet {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-offset-two-thirds, .bulma-column.bulma-is-offset-two-thirds-tablet {
-    margin-inline-start: 66.6666%;
-  }
-  .bulma-column.bulma-is-offset-half, .bulma-column.bulma-is-offset-half-tablet {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-offset-one-third, .bulma-column.bulma-is-offset-one-third-tablet {
-    margin-inline-start: 0.3333%;
-  }
-  .bulma-column.bulma-is-offset-one-quarter, .bulma-column.bulma-is-offset-one-quarter-tablet {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-offset-one-fifth, .bulma-column.bulma-is-offset-one-fifth-tablet {
-    margin-inline-start: 20%;
-  }
-  .bulma-column.bulma-is-offset-two-fifths, .bulma-column.bulma-is-offset-two-fifths-tablet {
-    margin-inline-start: 40%;
-  }
-  .bulma-column.bulma-is-offset-three-fifths, .bulma-column.bulma-is-offset-three-fifths-tablet {
-    margin-inline-start: 60%;
-  }
-  .bulma-column.bulma-is-offset-four-fifths, .bulma-column.bulma-is-offset-four-fifths-tablet {
-    margin-inline-start: 80%;
-  }
-  .bulma-column.bulma-is-0, .bulma-column.bulma-is-0-tablet {
+  .bulma-column.bulma-is-0 {
     flex: none;
-    width: 0%;
+    flex-basis: calc(100% * 0 / 12);
   }
-  .bulma-column.bulma-is-offset-0, .bulma-column.bulma-is-offset-0-tablet {
-    margin-inline-start: 0%;
-  }
-  .bulma-column.bulma-is-1, .bulma-column.bulma-is-1-tablet {
+  .bulma-column.bulma-is-1 {
     flex: none;
-    width: 8.3333333333%;
+    flex-basis: calc(100% * 1 / 12);
   }
-  .bulma-column.bulma-is-offset-1, .bulma-column.bulma-is-offset-1-tablet {
-    margin-inline-start: 8.3333333333%;
-  }
-  .bulma-column.bulma-is-2, .bulma-column.bulma-is-2-tablet {
+  .bulma-column.bulma-is-2 {
     flex: none;
-    width: 16.6666666667%;
+    flex-basis: calc(100% * 2 / 12);
   }
-  .bulma-column.bulma-is-offset-2, .bulma-column.bulma-is-offset-2-tablet {
-    margin-inline-start: 16.6666666667%;
-  }
-  .bulma-column.bulma-is-3, .bulma-column.bulma-is-3-tablet {
+  .bulma-column.bulma-is-3 {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 3 / 12);
   }
-  .bulma-column.bulma-is-offset-3, .bulma-column.bulma-is-offset-3-tablet {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-4, .bulma-column.bulma-is-4-tablet {
+  .bulma-column.bulma-is-4 {
     flex: none;
-    width: 33.3333333333%;
+    flex-basis: calc(100% * 4 / 12);
   }
-  .bulma-column.bulma-is-offset-4, .bulma-column.bulma-is-offset-4-tablet {
-    margin-inline-start: 33.3333333333%;
-  }
-  .bulma-column.bulma-is-5, .bulma-column.bulma-is-5-tablet {
+  .bulma-column.bulma-is-5 {
     flex: none;
-    width: 41.6666666667%;
+    flex-basis: calc(100% * 5 / 12);
   }
-  .bulma-column.bulma-is-offset-5, .bulma-column.bulma-is-offset-5-tablet {
-    margin-inline-start: 41.6666666667%;
-  }
-  .bulma-column.bulma-is-6, .bulma-column.bulma-is-6-tablet {
+  .bulma-column.bulma-is-6 {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 6 / 12);
   }
-  .bulma-column.bulma-is-offset-6, .bulma-column.bulma-is-offset-6-tablet {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-7, .bulma-column.bulma-is-7-tablet {
+  .bulma-column.bulma-is-7 {
     flex: none;
-    width: 58.3333333333%;
+    flex-basis: calc(100% * 7 / 12);
   }
-  .bulma-column.bulma-is-offset-7, .bulma-column.bulma-is-offset-7-tablet {
-    margin-inline-start: 58.3333333333%;
-  }
-  .bulma-column.bulma-is-8, .bulma-column.bulma-is-8-tablet {
+  .bulma-column.bulma-is-8 {
     flex: none;
-    width: 66.6666666667%;
+    flex-basis: calc(100% * 8 / 12);
   }
-  .bulma-column.bulma-is-offset-8, .bulma-column.bulma-is-offset-8-tablet {
-    margin-inline-start: 66.6666666667%;
-  }
-  .bulma-column.bulma-is-9, .bulma-column.bulma-is-9-tablet {
+  .bulma-column.bulma-is-9 {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 9 / 12);
   }
-  .bulma-column.bulma-is-offset-9, .bulma-column.bulma-is-offset-9-tablet {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-10, .bulma-column.bulma-is-10-tablet {
+  .bulma-column.bulma-is-10 {
     flex: none;
-    width: 83.3333333333%;
+    flex-basis: calc(100% * 10 / 12);
   }
-  .bulma-column.bulma-is-offset-10, .bulma-column.bulma-is-offset-10-tablet {
-    margin-inline-start: 83.3333333333%;
-  }
-  .bulma-column.bulma-is-11, .bulma-column.bulma-is-11-tablet {
+  .bulma-column.bulma-is-11 {
     flex: none;
-    width: 91.6666666667%;
+    flex-basis: calc(100% * 11 / 12);
   }
-  .bulma-column.bulma-is-offset-11, .bulma-column.bulma-is-offset-11-tablet {
-    margin-inline-start: 91.6666666667%;
-  }
-  .bulma-column.bulma-is-12, .bulma-column.bulma-is-12-tablet {
+  .bulma-column.bulma-is-12 {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 12 / 12);
   }
-  .bulma-column.bulma-is-offset-12, .bulma-column.bulma-is-offset-12-tablet {
-    margin-inline-start: 100%;
+  .bulma-column.bulma-is-narrow-tablet {
+    flex: none;
+    flex-basis: auto;
+  }
+  .bulma-column.bulma-is-full-tablet {
+    flex: none;
+    flex-basis: calc(100% * 1 / 1);
+  }
+  .bulma-column.bulma-is-three-quarters-tablet {
+    flex: none;
+    flex-basis: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-two-thirds-tablet {
+    flex: none;
+    flex-basis: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-half-tablet {
+    flex: none;
+    flex-basis: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-one-third-tablet {
+    flex: none;
+    flex-basis: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-one-quarter-tablet {
+    flex: none;
+    flex-basis: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-one-fifth-tablet {
+    flex: none;
+    flex-basis: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-two-fifths-tablet {
+    flex: none;
+    flex-basis: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-three-fifths-tablet {
+    flex: none;
+    flex-basis: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-four-fifths-tablet {
+    flex: none;
+    flex-basis: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-0-tablet {
+    flex: none;
+    flex-basis: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-1-tablet {
+    flex: none;
+    flex-basis: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-2-tablet {
+    flex: none;
+    flex-basis: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-3-tablet {
+    flex: none;
+    flex-basis: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-4-tablet {
+    flex: none;
+    flex-basis: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-5-tablet {
+    flex: none;
+    flex-basis: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-6-tablet {
+    flex: none;
+    flex-basis: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-7-tablet {
+    flex: none;
+    flex-basis: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-8-tablet {
+    flex: none;
+    flex-basis: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-9-tablet {
+    flex: none;
+    flex-basis: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-10-tablet {
+    flex: none;
+    flex-basis: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-11-tablet {
+    flex: none;
+    flex-basis: calc(100% * 11 / 12);
+  }
+  .bulma-column.bulma-is-12-tablet {
+    flex: none;
+    flex-basis: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0 {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1 {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2 {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3 {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4 {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5 {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6 {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7 {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8 {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9 {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10 {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11 {
+    margin-inline-start: calc(100% * 11 / 12);
+  }
+  .bulma-column.bulma-is-offset-12 {
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters-tablet {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds-tablet {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half-tablet {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third-tablet {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter-tablet {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth-tablet {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths-tablet {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths-tablet {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths-tablet {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0-tablet {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1-tablet {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2-tablet {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3-tablet {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4-tablet {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5-tablet {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6-tablet {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7-tablet {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8-tablet {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9-tablet {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10-tablet {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11-tablet {
+    margin-inline-start: calc(100% * 11 / 12);
+  }
+  .bulma-column.bulma-is-offset-12-tablet {
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12 {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12-tablet {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12 {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12-tablet {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12 {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12-tablet {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
   }
 }
 @media screen and (max-width: 1023px) {
   .bulma-column.bulma-is-narrow-touch {
     flex: none;
-    width: unset;
+    flex-basis: auto;
   }
   .bulma-column.bulma-is-full-touch {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 1 / 1);
   }
   .bulma-column.bulma-is-three-quarters-touch {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 3 / 4);
   }
   .bulma-column.bulma-is-two-thirds-touch {
     flex: none;
-    width: 66.6666%;
+    flex-basis: calc(100% * 2 / 3);
   }
   .bulma-column.bulma-is-half-touch {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 1 / 2);
   }
   .bulma-column.bulma-is-one-third-touch {
     flex: none;
-    width: 33.3333%;
+    flex-basis: calc(100% * 1 / 3);
   }
   .bulma-column.bulma-is-one-quarter-touch {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 1 / 4);
   }
   .bulma-column.bulma-is-one-fifth-touch {
     flex: none;
-    width: 20%;
+    flex-basis: calc(100% * 1 / 5);
   }
   .bulma-column.bulma-is-two-fifths-touch {
     flex: none;
-    width: 40%;
+    flex-basis: calc(100% * 2 / 5);
   }
   .bulma-column.bulma-is-three-fifths-touch {
     flex: none;
-    width: 60%;
+    flex-basis: calc(100% * 3 / 5);
   }
   .bulma-column.bulma-is-four-fifths-touch {
     flex: none;
-    width: 80%;
-  }
-  .bulma-column.bulma-is-offset-three-quarters-touch {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-offset-two-thirds-touch {
-    margin-inline-start: 66.6666%;
-  }
-  .bulma-column.bulma-is-offset-half-touch {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-offset-one-third-touch {
-    margin-inline-start: 0.3333%;
-  }
-  .bulma-column.bulma-is-offset-one-quarter-touch {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-offset-one-fifth-touch {
-    margin-inline-start: 20%;
-  }
-  .bulma-column.bulma-is-offset-two-fifths-touch {
-    margin-inline-start: 40%;
-  }
-  .bulma-column.bulma-is-offset-three-fifths-touch {
-    margin-inline-start: 60%;
-  }
-  .bulma-column.bulma-is-offset-four-fifths-touch {
-    margin-inline-start: 80%;
+    flex-basis: calc(100% * 4 / 5);
   }
   .bulma-column.bulma-is-0-touch {
     flex: none;
-    width: 0%;
-  }
-  .bulma-column.bulma-is-offset-0-touch {
-    margin-inline-start: 0%;
+    flex-basis: calc(100% * 0 / 12);
   }
   .bulma-column.bulma-is-1-touch {
     flex: none;
-    width: 8.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-1-touch {
-    margin-inline-start: 8.3333333333%;
+    flex-basis: calc(100% * 1 / 12);
   }
   .bulma-column.bulma-is-2-touch {
     flex: none;
-    width: 16.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-2-touch {
-    margin-inline-start: 16.6666666667%;
+    flex-basis: calc(100% * 2 / 12);
   }
   .bulma-column.bulma-is-3-touch {
     flex: none;
-    width: 25%;
-  }
-  .bulma-column.bulma-is-offset-3-touch {
-    margin-inline-start: 25%;
+    flex-basis: calc(100% * 3 / 12);
   }
   .bulma-column.bulma-is-4-touch {
     flex: none;
-    width: 33.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-4-touch {
-    margin-inline-start: 33.3333333333%;
+    flex-basis: calc(100% * 4 / 12);
   }
   .bulma-column.bulma-is-5-touch {
     flex: none;
-    width: 41.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-5-touch {
-    margin-inline-start: 41.6666666667%;
+    flex-basis: calc(100% * 5 / 12);
   }
   .bulma-column.bulma-is-6-touch {
     flex: none;
-    width: 50%;
-  }
-  .bulma-column.bulma-is-offset-6-touch {
-    margin-inline-start: 50%;
+    flex-basis: calc(100% * 6 / 12);
   }
   .bulma-column.bulma-is-7-touch {
     flex: none;
-    width: 58.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-7-touch {
-    margin-inline-start: 58.3333333333%;
+    flex-basis: calc(100% * 7 / 12);
   }
   .bulma-column.bulma-is-8-touch {
     flex: none;
-    width: 66.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-8-touch {
-    margin-inline-start: 66.6666666667%;
+    flex-basis: calc(100% * 8 / 12);
   }
   .bulma-column.bulma-is-9-touch {
     flex: none;
-    width: 75%;
-  }
-  .bulma-column.bulma-is-offset-9-touch {
-    margin-inline-start: 75%;
+    flex-basis: calc(100% * 9 / 12);
   }
   .bulma-column.bulma-is-10-touch {
     flex: none;
-    width: 83.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-10-touch {
-    margin-inline-start: 83.3333333333%;
+    flex-basis: calc(100% * 10 / 12);
   }
   .bulma-column.bulma-is-11-touch {
     flex: none;
-    width: 91.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-11-touch {
-    margin-inline-start: 91.6666666667%;
+    flex-basis: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-12-touch {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters-touch {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds-touch {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half-touch {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third-touch {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter-touch {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth-touch {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths-touch {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths-touch {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths-touch {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0-touch {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1-touch {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2-touch {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3-touch {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4-touch {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5-touch {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6-touch {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7-touch {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8-touch {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9-touch {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10-touch {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11-touch {
+    margin-inline-start: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-offset-12-touch {
-    margin-inline-start: 100%;
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12-touch {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12-touch {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12-touch {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
   }
 }
 @media screen and (min-width: 1024px) {
   .bulma-column.bulma-is-narrow-desktop {
     flex: none;
-    width: unset;
+    flex-basis: auto;
   }
   .bulma-column.bulma-is-full-desktop {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 1 / 1);
   }
   .bulma-column.bulma-is-three-quarters-desktop {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 3 / 4);
   }
   .bulma-column.bulma-is-two-thirds-desktop {
     flex: none;
-    width: 66.6666%;
+    flex-basis: calc(100% * 2 / 3);
   }
   .bulma-column.bulma-is-half-desktop {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 1 / 2);
   }
   .bulma-column.bulma-is-one-third-desktop {
     flex: none;
-    width: 33.3333%;
+    flex-basis: calc(100% * 1 / 3);
   }
   .bulma-column.bulma-is-one-quarter-desktop {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 1 / 4);
   }
   .bulma-column.bulma-is-one-fifth-desktop {
     flex: none;
-    width: 20%;
+    flex-basis: calc(100% * 1 / 5);
   }
   .bulma-column.bulma-is-two-fifths-desktop {
     flex: none;
-    width: 40%;
+    flex-basis: calc(100% * 2 / 5);
   }
   .bulma-column.bulma-is-three-fifths-desktop {
     flex: none;
-    width: 60%;
+    flex-basis: calc(100% * 3 / 5);
   }
   .bulma-column.bulma-is-four-fifths-desktop {
     flex: none;
-    width: 80%;
-  }
-  .bulma-column.bulma-is-offset-three-quarters-desktop {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-offset-two-thirds-desktop {
-    margin-inline-start: 66.6666%;
-  }
-  .bulma-column.bulma-is-offset-half-desktop {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-offset-one-third-desktop {
-    margin-inline-start: 0.3333%;
-  }
-  .bulma-column.bulma-is-offset-one-quarter-desktop {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-offset-one-fifth-desktop {
-    margin-inline-start: 20%;
-  }
-  .bulma-column.bulma-is-offset-two-fifths-desktop {
-    margin-inline-start: 40%;
-  }
-  .bulma-column.bulma-is-offset-three-fifths-desktop {
-    margin-inline-start: 60%;
-  }
-  .bulma-column.bulma-is-offset-four-fifths-desktop {
-    margin-inline-start: 80%;
+    flex-basis: calc(100% * 4 / 5);
   }
   .bulma-column.bulma-is-0-desktop {
     flex: none;
-    width: 0%;
-  }
-  .bulma-column.bulma-is-offset-0-desktop {
-    margin-inline-start: 0%;
+    flex-basis: calc(100% * 0 / 12);
   }
   .bulma-column.bulma-is-1-desktop {
     flex: none;
-    width: 8.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-1-desktop {
-    margin-inline-start: 8.3333333333%;
+    flex-basis: calc(100% * 1 / 12);
   }
   .bulma-column.bulma-is-2-desktop {
     flex: none;
-    width: 16.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-2-desktop {
-    margin-inline-start: 16.6666666667%;
+    flex-basis: calc(100% * 2 / 12);
   }
   .bulma-column.bulma-is-3-desktop {
     flex: none;
-    width: 25%;
-  }
-  .bulma-column.bulma-is-offset-3-desktop {
-    margin-inline-start: 25%;
+    flex-basis: calc(100% * 3 / 12);
   }
   .bulma-column.bulma-is-4-desktop {
     flex: none;
-    width: 33.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-4-desktop {
-    margin-inline-start: 33.3333333333%;
+    flex-basis: calc(100% * 4 / 12);
   }
   .bulma-column.bulma-is-5-desktop {
     flex: none;
-    width: 41.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-5-desktop {
-    margin-inline-start: 41.6666666667%;
+    flex-basis: calc(100% * 5 / 12);
   }
   .bulma-column.bulma-is-6-desktop {
     flex: none;
-    width: 50%;
-  }
-  .bulma-column.bulma-is-offset-6-desktop {
-    margin-inline-start: 50%;
+    flex-basis: calc(100% * 6 / 12);
   }
   .bulma-column.bulma-is-7-desktop {
     flex: none;
-    width: 58.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-7-desktop {
-    margin-inline-start: 58.3333333333%;
+    flex-basis: calc(100% * 7 / 12);
   }
   .bulma-column.bulma-is-8-desktop {
     flex: none;
-    width: 66.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-8-desktop {
-    margin-inline-start: 66.6666666667%;
+    flex-basis: calc(100% * 8 / 12);
   }
   .bulma-column.bulma-is-9-desktop {
     flex: none;
-    width: 75%;
-  }
-  .bulma-column.bulma-is-offset-9-desktop {
-    margin-inline-start: 75%;
+    flex-basis: calc(100% * 9 / 12);
   }
   .bulma-column.bulma-is-10-desktop {
     flex: none;
-    width: 83.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-10-desktop {
-    margin-inline-start: 83.3333333333%;
+    flex-basis: calc(100% * 10 / 12);
   }
   .bulma-column.bulma-is-11-desktop {
     flex: none;
-    width: 91.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-11-desktop {
-    margin-inline-start: 91.6666666667%;
+    flex-basis: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-12-desktop {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters-desktop {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds-desktop {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half-desktop {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third-desktop {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter-desktop {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth-desktop {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths-desktop {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths-desktop {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths-desktop {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0-desktop {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1-desktop {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2-desktop {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3-desktop {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4-desktop {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5-desktop {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6-desktop {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7-desktop {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8-desktop {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9-desktop {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10-desktop {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11-desktop {
+    margin-inline-start: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-offset-12-desktop {
-    margin-inline-start: 100%;
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12-desktop {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12-desktop {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12-desktop {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
   }
 }
 @media screen and (min-width: 1216px) {
   .bulma-column.bulma-is-narrow-widescreen {
     flex: none;
-    width: unset;
+    flex-basis: auto;
   }
   .bulma-column.bulma-is-full-widescreen {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 1 / 1);
   }
   .bulma-column.bulma-is-three-quarters-widescreen {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 3 / 4);
   }
   .bulma-column.bulma-is-two-thirds-widescreen {
     flex: none;
-    width: 66.6666%;
+    flex-basis: calc(100% * 2 / 3);
   }
   .bulma-column.bulma-is-half-widescreen {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 1 / 2);
   }
   .bulma-column.bulma-is-one-third-widescreen {
     flex: none;
-    width: 33.3333%;
+    flex-basis: calc(100% * 1 / 3);
   }
   .bulma-column.bulma-is-one-quarter-widescreen {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 1 / 4);
   }
   .bulma-column.bulma-is-one-fifth-widescreen {
     flex: none;
-    width: 20%;
+    flex-basis: calc(100% * 1 / 5);
   }
   .bulma-column.bulma-is-two-fifths-widescreen {
     flex: none;
-    width: 40%;
+    flex-basis: calc(100% * 2 / 5);
   }
   .bulma-column.bulma-is-three-fifths-widescreen {
     flex: none;
-    width: 60%;
+    flex-basis: calc(100% * 3 / 5);
   }
   .bulma-column.bulma-is-four-fifths-widescreen {
     flex: none;
-    width: 80%;
-  }
-  .bulma-column.bulma-is-offset-three-quarters-widescreen {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-offset-two-thirds-widescreen {
-    margin-inline-start: 66.6666%;
-  }
-  .bulma-column.bulma-is-offset-half-widescreen {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-offset-one-third-widescreen {
-    margin-inline-start: 0.3333%;
-  }
-  .bulma-column.bulma-is-offset-one-quarter-widescreen {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-offset-one-fifth-widescreen {
-    margin-inline-start: 20%;
-  }
-  .bulma-column.bulma-is-offset-two-fifths-widescreen {
-    margin-inline-start: 40%;
-  }
-  .bulma-column.bulma-is-offset-three-fifths-widescreen {
-    margin-inline-start: 60%;
-  }
-  .bulma-column.bulma-is-offset-four-fifths-widescreen {
-    margin-inline-start: 80%;
+    flex-basis: calc(100% * 4 / 5);
   }
   .bulma-column.bulma-is-0-widescreen {
     flex: none;
-    width: 0%;
-  }
-  .bulma-column.bulma-is-offset-0-widescreen {
-    margin-inline-start: 0%;
+    flex-basis: calc(100% * 0 / 12);
   }
   .bulma-column.bulma-is-1-widescreen {
     flex: none;
-    width: 8.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-1-widescreen {
-    margin-inline-start: 8.3333333333%;
+    flex-basis: calc(100% * 1 / 12);
   }
   .bulma-column.bulma-is-2-widescreen {
     flex: none;
-    width: 16.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-2-widescreen {
-    margin-inline-start: 16.6666666667%;
+    flex-basis: calc(100% * 2 / 12);
   }
   .bulma-column.bulma-is-3-widescreen {
     flex: none;
-    width: 25%;
-  }
-  .bulma-column.bulma-is-offset-3-widescreen {
-    margin-inline-start: 25%;
+    flex-basis: calc(100% * 3 / 12);
   }
   .bulma-column.bulma-is-4-widescreen {
     flex: none;
-    width: 33.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-4-widescreen {
-    margin-inline-start: 33.3333333333%;
+    flex-basis: calc(100% * 4 / 12);
   }
   .bulma-column.bulma-is-5-widescreen {
     flex: none;
-    width: 41.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-5-widescreen {
-    margin-inline-start: 41.6666666667%;
+    flex-basis: calc(100% * 5 / 12);
   }
   .bulma-column.bulma-is-6-widescreen {
     flex: none;
-    width: 50%;
-  }
-  .bulma-column.bulma-is-offset-6-widescreen {
-    margin-inline-start: 50%;
+    flex-basis: calc(100% * 6 / 12);
   }
   .bulma-column.bulma-is-7-widescreen {
     flex: none;
-    width: 58.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-7-widescreen {
-    margin-inline-start: 58.3333333333%;
+    flex-basis: calc(100% * 7 / 12);
   }
   .bulma-column.bulma-is-8-widescreen {
     flex: none;
-    width: 66.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-8-widescreen {
-    margin-inline-start: 66.6666666667%;
+    flex-basis: calc(100% * 8 / 12);
   }
   .bulma-column.bulma-is-9-widescreen {
     flex: none;
-    width: 75%;
-  }
-  .bulma-column.bulma-is-offset-9-widescreen {
-    margin-inline-start: 75%;
+    flex-basis: calc(100% * 9 / 12);
   }
   .bulma-column.bulma-is-10-widescreen {
     flex: none;
-    width: 83.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-10-widescreen {
-    margin-inline-start: 83.3333333333%;
+    flex-basis: calc(100% * 10 / 12);
   }
   .bulma-column.bulma-is-11-widescreen {
     flex: none;
-    width: 91.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-11-widescreen {
-    margin-inline-start: 91.6666666667%;
+    flex-basis: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-12-widescreen {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters-widescreen {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds-widescreen {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half-widescreen {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third-widescreen {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter-widescreen {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth-widescreen {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths-widescreen {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths-widescreen {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths-widescreen {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0-widescreen {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1-widescreen {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2-widescreen {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3-widescreen {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4-widescreen {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5-widescreen {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6-widescreen {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7-widescreen {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8-widescreen {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9-widescreen {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10-widescreen {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11-widescreen {
+    margin-inline-start: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-offset-12-widescreen {
-    margin-inline-start: 100%;
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12-widescreen {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12-widescreen {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12-widescreen {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
   }
 }
 @media screen and (min-width: 1408px) {
   .bulma-column.bulma-is-narrow-fullhd {
     flex: none;
-    width: unset;
+    flex-basis: auto;
   }
   .bulma-column.bulma-is-full-fullhd {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 1 / 1);
   }
   .bulma-column.bulma-is-three-quarters-fullhd {
     flex: none;
-    width: 75%;
+    flex-basis: calc(100% * 3 / 4);
   }
   .bulma-column.bulma-is-two-thirds-fullhd {
     flex: none;
-    width: 66.6666%;
+    flex-basis: calc(100% * 2 / 3);
   }
   .bulma-column.bulma-is-half-fullhd {
     flex: none;
-    width: 50%;
+    flex-basis: calc(100% * 1 / 2);
   }
   .bulma-column.bulma-is-one-third-fullhd {
     flex: none;
-    width: 33.3333%;
+    flex-basis: calc(100% * 1 / 3);
   }
   .bulma-column.bulma-is-one-quarter-fullhd {
     flex: none;
-    width: 25%;
+    flex-basis: calc(100% * 1 / 4);
   }
   .bulma-column.bulma-is-one-fifth-fullhd {
     flex: none;
-    width: 20%;
+    flex-basis: calc(100% * 1 / 5);
   }
   .bulma-column.bulma-is-two-fifths-fullhd {
     flex: none;
-    width: 40%;
+    flex-basis: calc(100% * 2 / 5);
   }
   .bulma-column.bulma-is-three-fifths-fullhd {
     flex: none;
-    width: 60%;
+    flex-basis: calc(100% * 3 / 5);
   }
   .bulma-column.bulma-is-four-fifths-fullhd {
     flex: none;
-    width: 80%;
-  }
-  .bulma-column.bulma-is-offset-three-quarters-fullhd {
-    margin-inline-start: 75%;
-  }
-  .bulma-column.bulma-is-offset-two-thirds-fullhd {
-    margin-inline-start: 66.6666%;
-  }
-  .bulma-column.bulma-is-offset-half-fullhd {
-    margin-inline-start: 50%;
-  }
-  .bulma-column.bulma-is-offset-one-third-fullhd {
-    margin-inline-start: 33.3333%;
-  }
-  .bulma-column.bulma-is-offset-one-quarter-fullhd {
-    margin-inline-start: 25%;
-  }
-  .bulma-column.bulma-is-offset-one-fifth-fullhd {
-    margin-inline-start: 20%;
-  }
-  .bulma-column.bulma-is-offset-two-fifths-fullhd {
-    margin-inline-start: 40%;
-  }
-  .bulma-column.bulma-is-offset-three-fifths-fullhd {
-    margin-inline-start: 60%;
-  }
-  .bulma-column.bulma-is-offset-four-fifths-fullhd {
-    margin-inline-start: 80%;
+    flex-basis: calc(100% * 4 / 5);
   }
   .bulma-column.bulma-is-0-fullhd {
     flex: none;
-    width: 0%;
-  }
-  .bulma-column.bulma-is-offset-0-fullhd {
-    margin-inline-start: 0%;
+    flex-basis: calc(100% * 0 / 12);
   }
   .bulma-column.bulma-is-1-fullhd {
     flex: none;
-    width: 8.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-1-fullhd {
-    margin-inline-start: 8.3333333333%;
+    flex-basis: calc(100% * 1 / 12);
   }
   .bulma-column.bulma-is-2-fullhd {
     flex: none;
-    width: 16.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-2-fullhd {
-    margin-inline-start: 16.6666666667%;
+    flex-basis: calc(100% * 2 / 12);
   }
   .bulma-column.bulma-is-3-fullhd {
     flex: none;
-    width: 25%;
-  }
-  .bulma-column.bulma-is-offset-3-fullhd {
-    margin-inline-start: 25%;
+    flex-basis: calc(100% * 3 / 12);
   }
   .bulma-column.bulma-is-4-fullhd {
     flex: none;
-    width: 33.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-4-fullhd {
-    margin-inline-start: 33.3333333333%;
+    flex-basis: calc(100% * 4 / 12);
   }
   .bulma-column.bulma-is-5-fullhd {
     flex: none;
-    width: 41.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-5-fullhd {
-    margin-inline-start: 41.6666666667%;
+    flex-basis: calc(100% * 5 / 12);
   }
   .bulma-column.bulma-is-6-fullhd {
     flex: none;
-    width: 50%;
-  }
-  .bulma-column.bulma-is-offset-6-fullhd {
-    margin-inline-start: 50%;
+    flex-basis: calc(100% * 6 / 12);
   }
   .bulma-column.bulma-is-7-fullhd {
     flex: none;
-    width: 58.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-7-fullhd {
-    margin-inline-start: 58.3333333333%;
+    flex-basis: calc(100% * 7 / 12);
   }
   .bulma-column.bulma-is-8-fullhd {
     flex: none;
-    width: 66.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-8-fullhd {
-    margin-inline-start: 66.6666666667%;
+    flex-basis: calc(100% * 8 / 12);
   }
   .bulma-column.bulma-is-9-fullhd {
     flex: none;
-    width: 75%;
-  }
-  .bulma-column.bulma-is-offset-9-fullhd {
-    margin-inline-start: 75%;
+    flex-basis: calc(100% * 9 / 12);
   }
   .bulma-column.bulma-is-10-fullhd {
     flex: none;
-    width: 83.3333333333%;
-  }
-  .bulma-column.bulma-is-offset-10-fullhd {
-    margin-inline-start: 83.3333333333%;
+    flex-basis: calc(100% * 10 / 12);
   }
   .bulma-column.bulma-is-11-fullhd {
     flex: none;
-    width: 91.6666666667%;
-  }
-  .bulma-column.bulma-is-offset-11-fullhd {
-    margin-inline-start: 91.6666666667%;
+    flex-basis: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-12-fullhd {
     flex: none;
-    width: 100%;
+    flex-basis: calc(100% * 12 / 12);
+  }
+  .bulma-column.bulma-is-offset-three-quarters-fullhd {
+    margin-inline-start: calc(100% * 3 / 4);
+  }
+  .bulma-column.bulma-is-offset-two-thirds-fullhd {
+    margin-inline-start: calc(100% * 2 / 3);
+  }
+  .bulma-column.bulma-is-offset-half-fullhd {
+    margin-inline-start: calc(100% * 1 / 2);
+  }
+  .bulma-column.bulma-is-offset-one-third-fullhd {
+    margin-inline-start: calc(100% * 1 / 3);
+  }
+  .bulma-column.bulma-is-offset-one-quarter-fullhd {
+    margin-inline-start: calc(100% * 1 / 4);
+  }
+  .bulma-column.bulma-is-offset-one-fifth-fullhd {
+    margin-inline-start: calc(100% * 1 / 5);
+  }
+  .bulma-column.bulma-is-offset-two-fifths-fullhd {
+    margin-inline-start: calc(100% * 2 / 5);
+  }
+  .bulma-column.bulma-is-offset-three-fifths-fullhd {
+    margin-inline-start: calc(100% * 3 / 5);
+  }
+  .bulma-column.bulma-is-offset-four-fifths-fullhd {
+    margin-inline-start: calc(100% * 4 / 5);
+  }
+  .bulma-column.bulma-is-offset-0-fullhd {
+    margin-inline-start: calc(100% * 0 / 12);
+  }
+  .bulma-column.bulma-is-offset-1-fullhd {
+    margin-inline-start: calc(100% * 1 / 12);
+  }
+  .bulma-column.bulma-is-offset-2-fullhd {
+    margin-inline-start: calc(100% * 2 / 12);
+  }
+  .bulma-column.bulma-is-offset-3-fullhd {
+    margin-inline-start: calc(100% * 3 / 12);
+  }
+  .bulma-column.bulma-is-offset-4-fullhd {
+    margin-inline-start: calc(100% * 4 / 12);
+  }
+  .bulma-column.bulma-is-offset-5-fullhd {
+    margin-inline-start: calc(100% * 5 / 12);
+  }
+  .bulma-column.bulma-is-offset-6-fullhd {
+    margin-inline-start: calc(100% * 6 / 12);
+  }
+  .bulma-column.bulma-is-offset-7-fullhd {
+    margin-inline-start: calc(100% * 7 / 12);
+  }
+  .bulma-column.bulma-is-offset-8-fullhd {
+    margin-inline-start: calc(100% * 8 / 12);
+  }
+  .bulma-column.bulma-is-offset-9-fullhd {
+    margin-inline-start: calc(100% * 9 / 12);
+  }
+  .bulma-column.bulma-is-offset-10-fullhd {
+    margin-inline-start: calc(100% * 10 / 12);
+  }
+  .bulma-column.bulma-is-offset-11-fullhd {
+    margin-inline-start: calc(100% * 11 / 12);
   }
   .bulma-column.bulma-is-offset-12-fullhd {
-    margin-inline-start: 100%;
+    margin-inline-start: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-quarters-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-thirds-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-half-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-third-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-quarter-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-one-fifth-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-two-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-three-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-four-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-0-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-1-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-2-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-3-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-4-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-5-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-6-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-7-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-8-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-9-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-10-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-11-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-row-reverse > .bulma-column.bulma-is-offset-12-fullhd {
+    margin-inline-start: 0;
+    margin-inline-end: calc(100% * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-quarters-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-thirds-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-half-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-third-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-quarter-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-one-fifth-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-two-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-three-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-four-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-0-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-1-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-2-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-3-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-4-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-5-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-6-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-7-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-8-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-9-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-10-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-11-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column > .bulma-column.bulma-is-offset-12-fullhd {
+    margin-inline-start: 0;
+    margin-block-start: calc(100cqb * 12 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-quarters-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-thirds-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-half-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 2);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-third-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 3);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-quarter-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 4);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-one-fifth-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-two-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-three-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-four-fifths-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 5);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-0-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 0 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-1-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 1 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-2-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 2 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-3-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 3 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-4-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 4 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-5-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 5 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-6-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 6 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-7-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 7 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-8-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 8 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-9-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 9 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-10-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 10 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-11-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 11 / 12);
+  }
+  .bulma-columns.bulma-is-flex-direction-column-reverse > .bulma-column.bulma-is-offset-12-fullhd {
+    margin-inline-start: 0;
+    margin-block-end: calc(100cqb * 12 / 12);
   }
 }
 
@@ -9667,14 +11941,23 @@ label.bulma-panel-block:hover {
 .bulma-columns.bulma-is-vcentered {
   align-items: center;
 }
+.bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column, .bulma-columns.bulma-is-mobile.bulma-is-flex-direction-column-reverse {
+  container-type: size;
+}
 @media screen and (min-width: 769px), print {
   .bulma-columns:not(.bulma-is-desktop) {
     display: flex;
+  }
+  .bulma-columns:not(.bulma-is-desktop).bulma-is-flex-direction-column, .bulma-columns:not(.bulma-is-desktop).bulma-is-flex-direction-column-reverse {
+    container-type: size;
   }
 }
 @media screen and (min-width: 1024px) {
   .bulma-columns.bulma-is-desktop {
     display: flex;
+  }
+  .bulma-columns.bulma-is-desktop.bulma-is-flex-direction-column, .bulma-columns.bulma-is-desktop.bulma-is-flex-direction-column-reverse {
+    container-type: size;
   }
 }
 .bulma-columns.bulma-is-0 {
