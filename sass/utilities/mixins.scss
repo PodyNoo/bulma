@@ -25,6 +25,14 @@
   &:not(:last-child) {
     margin-bottom: $spacing;
   }
+
+  .#{iv.$class-prefix}#{iv.$helpers-prefix}flex-direction-column-reverse > &:first-child {
+    margin-bottom: 0;
+  }
+
+  .#{iv.$class-prefix}#{iv.$helpers-prefix}flex-direction-column-reverse > &:not(:first-child) {
+    margin-bottom: $spacing;
+  }
 }
 
 @mixin center($width, $height: 0) {
