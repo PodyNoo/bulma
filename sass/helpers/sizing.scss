@@ -1,0 +1,54 @@
+@use "sass:list";
+@use "sass:map";
+@use "../utilities/initial-variables" as iv;
+
+$sizing-shortcuts: (
+  "width": "w",
+  "height": "h",
+  "min-width": "min-w",
+  "min-height": "min-h",
+  "max-width": "max-w",
+  "max-height": "max-h",
+) !default;
+
+$sizing-values: (
+  "0": 0,
+  "25": 25%,
+  "50": 50%,
+  "75": 75%,
+  "100": 100%,
+  "auto": auto,
+  "none": none,
+) !default;
+
+$sizing-excluded-values: (
+  "width": ("none"),
+  "height": ("none"),
+  "min-width": ("none"),
+  "min-height": ("none"),
+  "max-width": ("auto"),
+  "max-height": ("auto"),
+) !default;
+
+@mixin emit-sizing-helpers {
+  @each $property, $shortcut in $sizing-shortcuts {
+    @if $shortcut != null {
+      $excluded: map.get($sizing-excluded-values, $property);
+
+      @each $name, $value in $sizing-values {
+        @if $excluded == null or list.index($excluded, $name) == null {
+          .#{iv.$class-prefix}#{$shortcut}-#{$name} {
+            #{$property}: $value !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.#{iv.$class-prefix}#{iv.$helpers-prefix}fill {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@include emit-sizing-helpers;

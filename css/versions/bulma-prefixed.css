@@ -22434,6 +22434,155 @@ bulma-has-background-danger.is-hoverable:active {
   position: sticky !important;
 }
 
+.bulma-is-fill {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.bulma-w-0 {
+  width: 0 !important;
+}
+
+.bulma-w-25 {
+  width: 25% !important;
+}
+
+.bulma-w-50 {
+  width: 50% !important;
+}
+
+.bulma-w-75 {
+  width: 75% !important;
+}
+
+.bulma-w-100 {
+  width: 100% !important;
+}
+
+.bulma-w-auto {
+  width: auto !important;
+}
+
+.bulma-h-0 {
+  height: 0 !important;
+}
+
+.bulma-h-25 {
+  height: 25% !important;
+}
+
+.bulma-h-50 {
+  height: 50% !important;
+}
+
+.bulma-h-75 {
+  height: 75% !important;
+}
+
+.bulma-h-100 {
+  height: 100% !important;
+}
+
+.bulma-h-auto {
+  height: auto !important;
+}
+
+.bulma-min-w-0 {
+  min-width: 0 !important;
+}
+
+.bulma-min-w-25 {
+  min-width: 25% !important;
+}
+
+.bulma-min-w-50 {
+  min-width: 50% !important;
+}
+
+.bulma-min-w-75 {
+  min-width: 75% !important;
+}
+
+.bulma-min-w-100 {
+  min-width: 100% !important;
+}
+
+.bulma-min-w-auto {
+  min-width: auto !important;
+}
+
+.bulma-min-h-0 {
+  min-height: 0 !important;
+}
+
+.bulma-min-h-25 {
+  min-height: 25% !important;
+}
+
+.bulma-min-h-50 {
+  min-height: 50% !important;
+}
+
+.bulma-min-h-75 {
+  min-height: 75% !important;
+}
+
+.bulma-min-h-100 {
+  min-height: 100% !important;
+}
+
+.bulma-min-h-auto {
+  min-height: auto !important;
+}
+
+.bulma-max-w-0 {
+  max-width: 0 !important;
+}
+
+.bulma-max-w-25 {
+  max-width: 25% !important;
+}
+
+.bulma-max-w-50 {
+  max-width: 50% !important;
+}
+
+.bulma-max-w-75 {
+  max-width: 75% !important;
+}
+
+.bulma-max-w-100 {
+  max-width: 100% !important;
+}
+
+.bulma-max-w-none {
+  max-width: none !important;
+}
+
+.bulma-max-h-0 {
+  max-height: 0 !important;
+}
+
+.bulma-max-h-25 {
+  max-height: 25% !important;
+}
+
+.bulma-max-h-50 {
+  max-height: 50% !important;
+}
+
+.bulma-max-h-75 {
+  max-height: 75% !important;
+}
+
+.bulma-max-h-100 {
+  max-height: 100% !important;
+}
+
+.bulma-max-h-none {
+  max-height: none !important;
+}
+
 .bulma-marginless {
   margin: 0 !important;
 }
